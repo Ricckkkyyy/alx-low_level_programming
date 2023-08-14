@@ -20,7 +20,7 @@ int main(void)
 	/* calculating the last digit */
 	last_digit = n % 10;
 	/* printing the random genertaed number */
-        printf("The last digit of %d is %d \n", n, last_digit);
+	printf("The last digit of %d is %d ", n, last_digit);
 	/* printing the message basd on the calculation */
 	if (last_digit > 5)
 	{

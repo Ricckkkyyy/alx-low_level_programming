@@ -9,7 +9,7 @@ void times_table(void)
 	int row, column, product;
 
 	/* using the nested for loop to declare the varibales */
-	for (row = 0; row <=9; row++)
+	for (row = 0; row <= 9; row++)
 	{
 		for (column = 0; column <= 9; column++)
 		{
@@ -30,10 +30,8 @@ void times_table(void)
 				}
 				else
 				{
-					_putchar(' ');
 					_putchar('0' + product);
 				}
-			
 			}
 		}
 		_putchar('\n');

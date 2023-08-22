@@ -1,6 +1,7 @@
 #include "main.h"
 #include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
 
 /**
  * _isdigit - Checks if a character is a digit (0 through 9).
@@ -8,7 +9,7 @@
  *
  * Return: 1 if c is a digit, 0 otherwise.
  */
-int _isdigit(int c);
+int _isdigit(int c)
 {
 	/* using the if statement to give the condition*/
 	if (c >= '0' && c <= '9')
